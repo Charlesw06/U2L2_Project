@@ -9,9 +9,9 @@ public class U2L2Runner {
         square.setLength(125);
         rectDefault.setWidth(125);
 
-        int perimRect1 = (2 * rect1.getLength()) + (2 * rect1.getWidth());
-        int perimSquare = (4 * square.getLength());
-        int perimRectDefault = (2 * rectDefault.getLength()) + (2 * rectDefault.getWidth());
+        int perimRect1 = rect1.perimeter();
+        int perimSquare = square.perimeter();
+        int perimRectDefault = rectDefault.perimeter();
         int perimSum = perimRect1 + perimRectDefault + perimSquare;
 
         int areaRect1 = rect1.calculateArea();
